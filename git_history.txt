@@ -1,0 +1,40 @@
+    1  2020-01-17 09:15:10 pwd
+    2  2020-01-17 09:15:50 mkdir planets
+    3  2020-01-17 09:17:01 cd planets/
+    4  2020-01-17 09:19:28 git config --global user.name "Dongni An"
+    5  2020-01-17 09:20:24 git config --global user.email "da2899@columbia.edu"
+    6  2020-01-17 09:20:26 git config --list
+    7* 2020-01-17 09:22:44 
+    8  2020-01-17 09:25:04 git init
+    9  2020-01-17 09:26:53 ls .git/
+   10  2020-01-17 09:27:58 which nano
+   11  2020-01-17 09:30:02 git add mars.txt
+   12  2020-01-17 09:31:31 git commit mars.txt
+   13  2020-01-17 09:32:57 git comment -m "first commit and here we add our remark"
+   14  2020-01-17 09:33:08 git commit -m "first commit and here we add our remark"
+   15  2020-01-17 09:41:40 git commit -m "second comment"
+   16  2020-01-17 09:46:10 git add.
+   17  2020-01-17 09:46:54 git commit -m "third comment"
+   18  2020-01-17 09:55:26 git diff
+   19  2020-01-17 09:57:21 nano mars.txt
+   20  2020-01-17 09:58:57 git diff mars.txt
+   21  2020-01-17 09:59:17 git commit -m "fourth commit"
+   22  2020-01-17 10:00:39 touch a.dat b.dat c.dat
+   23  2020-01-17 10:01:56 nano .gitignore
+   24  2020-01-17 10:02:24 git status
+   25  2020-01-17 10:03:37 git status -help
+   26  2020-01-17 10:04:18 git add .
+   27  2020-01-17 10:04:31 git commit -m "fifth comment"
+   28  2020-01-17 10:04:38 git log
+   29  2020-01-17 10:04:58 ls -al
+   30  2020-01-17 10:10:11 git remote add origin https://github.com/Columbianini/planets.git
+   31  2020-01-17 10:11:10 git remote -v
+   32  2020-01-17 10:12:44 git push origin master
+   33  2020-01-17 10:21:40 git pull origin master
+   34  2020-01-17 10:21:49 cat mars.txt
+   35  2020-01-17 10:40:44 git diff Head~2
+   36  2020-01-17 10:41:08 git diff Head~1
+   37  2020-01-17 10:41:11 git diff Head~3
+   38  2020-01-17 10:41:37 git diff Head
+   39  2020-01-17 10:56:46 history
+   40  2020-01-17 10:57:19 history > git_history.txt
